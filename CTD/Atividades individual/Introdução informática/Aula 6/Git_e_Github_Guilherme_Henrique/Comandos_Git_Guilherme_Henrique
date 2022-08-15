@@ -1,0 +1,15 @@
+Clonar um repositorio existente
+$ git clone ssh://usuario@domain.com/repo.git
+
+Criar um repositório local
+$ git init 
+
+Eviar arquivos ao repositorio remoto
+$ git pussh
+
+Adicionar arquivos
+$ git add 
+
+Criar uma branch 
+$ git branch (nome da branch)
+
