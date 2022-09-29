@@ -1,0 +1,347 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(45deg, rgb(62, 62, 62), rgb(130, 130, 132), rgb(2, 2, 2));
+    
+}
+
+.header-1 {
+
+    width: 100%;
+    height: 90px;
+    background: linear-gradient(45deg, rgb(62, 62, 62), rgb(130, 130, 132), rgb(2, 2, 2));
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+
+}
+
+
+
+
+.header-1 img {
+
+    width: 150px;
+    height: 100px;
+    padding: 12px;
+    border-radius: 40px;
+    position: relative;
+    left: 30px;
+    bottom: 5px;
+
+}
+.Options {
+
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+
+}
+.Options button {
+
+    padding: 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 20px;
+    background-color: transparent;
+
+}
+.Options button:hover{
+
+    background: linear-gradient(45deg, rgb(62, 62, 62), rgb(130, 130, 132), rgb(2, 2, 2));
+    transform: scale(1.2);
+
+}
+span {
+
+    color: red;
+}
+.responsivo-header{
+
+    display: none;
+
+}
+
+.backgroud img{
+
+    width: 100%;
+    height: 100vh;
+
+}
+
+.Information {
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px 120px 70px 120px;
+    
+}
+.title img:hover{
+
+    background-image: url(./files/avaliação-2.webp);
+    
+
+}
+.title button {
+
+    background-color: transparent;
+    border: 0;
+
+}
+.Information h1 {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    color: rgb(0, 93, 0);
+
+}
+.Information p {
+
+    position: relative;
+    top: 35px;
+    color: black;
+
+}
+.autor {
+
+    display: flex;
+    position: relative;
+    top: 80px;
+    font-size: 20px;
+    color: black;
+
+}
+.autor a {
+
+    color: blue;
+    font-size: 15px;
+
+
+}
+.autor .escritor {
+
+    padding: 0px 0px 0px 170px;
+
+}
+
+.videos {
+
+    display: flex;
+    flex-direction: column;
+    padding: 90px 120px 70px 120px;
+    z-index: 4;
+
+}
+.videos h3 {
+
+    font-size: 30px;
+    color: black;
+    
+
+}
+.video {
+
+    width: 100%;
+    height: 615px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+   
+}
+
+.main-footer{
+
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 30px 0px 30px;
+    background-color: black;
+    color: aliceblue;
+
+}
+
+.linkedin {
+
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 8px;
+
+}
+.git {
+
+    width: 24px;
+    height: 24px;
+    border-radius: 20px;
+    position: relative;
+    top: 8px;
+    
+}
+.victor{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.finish {
+
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: black;
+    border-style: solid;
+    border-color: black;
+    padding-top: 40px;
+    
+}
+@media (max-width: 428px){
+
+    .header-1{
+
+        display: none;
+
+    }
+    .Options{
+
+        display: none;
+
+    }
+    .text-muted p {
+
+        color: aliceblue;
+        text-align: center;
+
+    }
+    .responsivo-header{
+
+       display: inline;
+       width: 428px;
+       
+    }
+    .text-muted  {
+
+        width: 380px;
+        display: flex;
+        justify-content: center;
+        background-color: transparent;
+        border: 0;
+        
+
+    }
+    .perso{
+
+        background: linear-gradient(45deg, rgb(62, 62, 62), rgb(130, 130, 132), rgb(2, 2, 2)) !important; 
+
+    }
+    .banner img{
+
+        width: 120px;
+        border-radius: 40px;
+
+    }
+    .backgroud img{
+
+        width: 100%;
+        height: 30vh;
+    
+    }
+    .Information {
+
+        padding: 20px 20px 70px 20px;
+        
+    }
+    .Information h1 {
+    
+        font-size: 35px;
+    
+    }
+    .autor .escritor {
+    
+        padding: 0px 0px 0px 40px;
+        
+    }
+    
+    .videos {
+
+        display: flex;
+        align-items: center;
+        width: 428px;
+        height: 220px;
+        position: relative;
+        bottom: 90px;
+        padding-top: 170px;
+    
+    }
+    .video {
+
+        width: 328px;
+        height: 420px;
+
+    }
+    footer{
+
+        position: relative;
+        top: 120px;
+        height: 500px;
+        background-color: black;
+
+    }
+    .main-footer{
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-color: black;
+        color: aliceblue;
+    
+    }
+    .main-footer a {
+ 
+        position: relative;
+        bottom: 24px;
+
+    }
+    .victor{
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+    .finish {
+
+        padding-top: 280px;
+
+    }
+
+    
+    }
+    @media (max-width: 378px){
+
+        .video {
+
+            width: 228px;
+
+        }
+        .videos {
+            width: 338px;
+        }
+    }
